@@ -1,0 +1,9 @@
+.app {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+tr {
+    transition: 0.5s all;
+}
+
+th,td {
+    border: 1px solid rgb(17, 62, 122);
+    padding: 0.5rem;
+}
+
+th {
+    cursor: pointer;
+}
+
+td {
+    transition: 0.5s all;
+}
+
+.row:hover {
+    background-color: rgb(172, 225, 241);
+}
+
+td:hover {
+    background-color: rgb(73, 114, 167);
+    color: #ffffff;
+}
